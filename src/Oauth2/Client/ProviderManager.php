@@ -170,7 +170,7 @@ class ProviderManager
         ] + $providerConfig->getOptions();
 
         if ($providerName === 'facebook') {
-            $options['graphApiVersion'] = 'v2.5';
+            $options['graphApiVersion'] = 'v2.10';
         }
 
         //if ($providerName === 'local') {
